@@ -43,9 +43,11 @@ body {
   --size-40: 10rem;
 
   margin: 0;
-  background-color: var(--color-grey-500);
-  color: #252525;
+  background: linear-gradient(90deg, #49464f 0, #373240 100%);
+  color: #d5cbe7;
   font-family: 'Roboto', sans-serif;
+  margin: auto !important;
+  max-width: 1024px;
 }
 
 h1,
@@ -56,6 +58,7 @@ h3 {
 
 a {
   text-decoration: none;
+  color: #d5cbe7;
 }
 
 button {

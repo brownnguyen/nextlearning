@@ -1,0 +1,29 @@
+header.header,
+.listMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listMenu {
+    list-style: none;
+
+    li {
+        padding: 0 10px;
+    }
+}
+.home {
+    section {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+    .homeContent {
+        max-width: 800px;
+        padding: 20px;
+    }
+    .image {
+        border-radius: 50%;
+    }
+}
