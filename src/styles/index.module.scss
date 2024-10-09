@@ -5,13 +5,49 @@ header.header,
     align-items: center;
 }
 
-.listMenu {
+.listMenu,
+.listMenuSession,
+.upcommingSessionModal {
     list-style: none;
 
     li {
         padding: 0 10px;
     }
 }
+
+.upcommingSessionModal {
+    padding-left: 0;
+
+    li {
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        background-color: #6b5e81;
+    }
+
+    .upcommingTitle {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .emptyBooking {
+        background-color: transparent;
+        color: #6b5e81;
+        text-align: center;
+    }
+
+    p,
+    h2 {
+        margin: 5px 0;
+        color: wheat;
+    }
+
+    h2 {
+        color: white;
+    }
+}
+
 .home {
     section {
         display: flex;
@@ -19,11 +55,51 @@ header.header,
         align-items: center;
 
     }
+
     .homeContent {
         max-width: 800px;
         padding: 20px;
     }
+
     .image {
         border-radius: 50%;
     }
+}
+
+.listMenuSession {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 cột với kích thước bằng nhau */
+    gap: 10px;
+    padding-left: 0;
+
+    li {
+        padding: 0;
+        padding-bottom: 20px;
+    }
+}
+
+.sessionDetailsDescription {
+    line-height: 2;
+}
+
+.sessionDetailsTitle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sessionModal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    >button {
+        margin: 0 10px;
+    }
+}
+
+.titleConfirmBookingModal {
+    text-align: center;
+    margin-bottom: 40px;
 }

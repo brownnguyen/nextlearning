@@ -1,8 +1,6 @@
+import { bookingReducer as booking } from './bookingSlice';
 
-import { combineReducers } from 'redux';
-
-
-const rootReducer = combineReducers({
-});
+const rootReducer = booking;
 
 export default rootReducer;
+export type RootState = ReturnType<typeof rootReducer>;

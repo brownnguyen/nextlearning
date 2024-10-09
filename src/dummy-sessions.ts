@@ -53,7 +53,7 @@ export const SESSIONS = [
   {
     id: 'sess05',
     title: 'Custom Hooks Creation',
-    summary: 'Craft your custom hooks.',
+    summary: 'Craft your custom hooks with many amazing things',
     description:
       "Explore the power of custom hooks. Work together to create hooks tailored for your application's needs.",
     duration: 1.5,

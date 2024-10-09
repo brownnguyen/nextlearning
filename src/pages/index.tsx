@@ -4,7 +4,7 @@ import studentsImg from '../assets/students.jpg';
 import listImg from '../assets/list.jpg';
 import certificateImg from '../assets/certificate.jpg';
 import styles from '../styles/index.module.scss';
-{ console.log(studentsImg) }
+
 const Home: React.FC = () => (
   <div className={styles.home}>
     <h2>Our Mission: Your Success</h2>
