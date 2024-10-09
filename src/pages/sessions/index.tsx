@@ -1,3 +1,4 @@
+import React from 'react';
 import SessionsList from '../../component/session-list';
 import { SESSIONS } from '../../dummy-sessions';
 const Sessions: React.FC = () => {

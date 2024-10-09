@@ -1,4 +1,4 @@
-
+import React from 'react';
 import { Image } from 'antd';
 import studentsImg from '../assets/students.jpg';
 import listImg from '../assets/list.jpg';

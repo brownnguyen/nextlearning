@@ -50,8 +50,6 @@ export const bookingReducer = (state: BookingState = initialState, action) => {
             }
 
         case REMOVE_SESSION:
-            console.log(action.payload);
-            console.log(state.sessions.filter(session => session.id !== action.payload))
             return {
                 ...state,
                 sessions: state.sessions.filter(session => session.id !== action.payload),

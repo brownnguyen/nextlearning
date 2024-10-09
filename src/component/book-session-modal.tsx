@@ -1,3 +1,4 @@
+import React from 'react';
 import { Modal, Button } from 'antd';
 import styles from '../styles/index.module.scss';
 import { addSession } from '../store/reducers/bookingSlice';

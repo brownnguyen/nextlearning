@@ -1,3 +1,4 @@
+import React from 'react';
 import { StaticImageData } from 'next/image';
 import SessionItem from './session-item';
 import styles from '../styles/index.module.scss';

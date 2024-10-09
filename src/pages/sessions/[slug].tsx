@@ -1,3 +1,4 @@
+import React from 'react';
 import { useRouter } from 'next/router';
 import { SESSIONS } from '../../dummy-sessions';
 import { Image, Button, Modal } from 'antd';

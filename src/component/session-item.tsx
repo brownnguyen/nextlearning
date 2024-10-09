@@ -1,3 +1,4 @@
+import React from 'react';
 import { Card } from 'antd';
 import Link from 'next/link';
 import { StaticImageData } from 'next/image';
@@ -16,7 +17,7 @@ type SessionItemProps = {
 
 const SessionItem: React.FC<SessionItemProps> = ({ session }) => {
 
-  return <Link href={`sessions/${session.id}`}>
+  return (<Link href={`sessions/${session.id}`}>
     <Card
       hoverable
       style={{ width: 240 }}
@@ -28,6 +29,6 @@ const SessionItem: React.FC<SessionItemProps> = ({ session }) => {
       <Meta title={session.title} description={session.summary} />
     </Card>
 
-  </Link>
+  </Link>)
 }
 export default SessionItem;
